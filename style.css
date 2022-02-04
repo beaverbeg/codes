@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(15, 0, 12)
+}
+.box{
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: 4em;
+
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    height: 43em;
+    width: 25em;
+}
+.header{
+    text-align: left;
+    height: 4em;
+    margin-top: 0.5em;
+    border-bottom-style: dashed;
+    width: 25em;
+}
+.body{
+    text-decoration: none;
+    font-size: 110%;
+    text-align: left;
+    margin: 1.2em;
+}
+.body a{
+    margin-bottom: 10px;
+}
+.h1-crap{
+    padding-top: 0.8em;
+    padding-left: 0.7em;
+    text-shadow: 0px 0px 3px white;
+}
+.p-link{
+    color: rgb(0, 102, 197);
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(140, 140, 140, 0.3); 
+}
+::-webkit-scrollbar-thumb {
+    background: #7d00c5;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+@media screen and (max-device-width: 410px){
+
+    .box{
+        justify-content: center;
+        margin-top: 3em;
+        margin-bottom: 1.5em;
+    
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        height: 37em;
+        width: 20em;
+    }
+    .header{
+        text-align: left;
+        height: 4em;
+        margin-top: 0.5em;
+        border-bottom-style: dashed;
+        width: 20em;
+    }
+    .body{
+        text-decoration: none;
+        font-size: 90%;
+        text-align: left;
+        margin: 0.8em;
+    }
+
+}
